@@ -1,0 +1,277 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* === GLOBAL RULES === */
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    color: white;
+    background: url(../img/deep-blue-sea.jpg) top center no-repeat fixed;
+    background-size: cover;
+    height: 2600px;
+}
+
+header{
+    width: 1250px;
+    height: 530px;
+    background: url(../img/css-zen-garden-header-final-1.png);
+    background-repeat: no-repeat;
+}
+
+header h1, h2{
+    display: none;
+}
+
+a{
+    color: #FFA500;
+    text-decoration: none;
+}
+
+a:link{
+    color: #FFA500;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #FF8C00;
+}
+
+a:hover{
+    color: #FF8C00;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #FFA500;
+}
+
+li{
+    list-style: none;
+}
+
+p:first-of-type:first-letter{
+    font-size: 2rem;
+}
+
+footer{
+    width: 1600px;
+    text-align: center;
+    background: url(../img/shark-diver.png) no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+footer a{
+    position: relative;
+    top: 170px;
+    right: 205px;
+    margin-right: 15px;
+}
+
+
+/* === ID RULES === */
+
+
+/* === CLASS RULES === */
+
+
+
+
+/* ==== First Paragraph in Summary ==== */
+
+.summary p:first-of-type{
+    display: none;
+}
+
+/* ==== Summary Paragraph ==== */
+
+.summary p{
+    font-size: 16px;
+    position: absolute;
+    top: 500px;
+    right: -465px;
+}
+
+
+/* ==== Side Bar ==== */
+
+.sidebar{
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: url(../img/treasure-map.png) no-repeat;
+    text-align-last: center;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 580px;
+    position: absolute;
+    top: 550px;
+    right: 30px;
+}
+
+
+/* ==== Side Bar Links ==== */
+
+.sidebar a{
+    color: #315d93;
+}
+
+.sidebar a:link{
+    color: #315d93;
+}
+
+.sidebar a:visited{
+    color: #6CA6CD;
+}
+
+.sidebar a:hover{
+    color: #6CA6CD;
+    text-decoration: underline;
+}
+
+.sidebar a:active{
+    color: #315d93;
+}
+
+
+/* ==== Side Bar Headers ==== */
+
+.wrapper h3{
+    font-family: Lobster, cursive;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    right: -20px;
+}
+
+
+/* ==== Side Bar Content ==== */
+
+.design-selection,
+.design-archives,
+.zen-resources{
+    position: relative;
+    right: 20px;
+    top: 40px;
+}
+
+
+/* ==== Main Content Headers ==== */
+
+.preamble h3,
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3{
+    display: none;
+}
+
+
+/* ==== Main Content ==== */
+
+.intro,
+.main{
+    position: relative;
+    width: 750px;
+    margin-left: 20px;
+}
+
+.preamble{
+    padding-top: 40px;
+    background: url(../img/the-road-to-enlightenment.png);
+    background-repeat: no-repeat;
+}
+
+.explanation{
+    padding-top: 40px;
+    background: url(../img/so-what-is-this-about.png);
+    background-repeat: no-repeat;
+}
+
+.participation{
+    padding-top: 40px;
+    background: url(../img/participation.png);
+    background-repeat: no-repeat;
+}
+
+.benefits{
+    padding-top: 40px;
+    background: url(../img/benefits.png);
+    background-repeat: no-repeat;
+}
+
+.requirements{
+    padding-top: 40px;
+    background: url(../img/requirements.png);
+    background-repeat: no-repeat;
+}
+
+.requirements p:last-of-type{
+    width: 350px;
+    position: relative;
+    top: 150px;
+    left: 420px
+}
+
+
+/* ==== Extra Div's ==== */
+
+.extra1, .extra2, .extra3{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 1450px;
+    left: 1000px;
+    z-index: -1;
+    background: url(../img/bubble1.png) no-repeat;
+}
+
+.extra2{
+    position: absolute;
+    top: 990px;
+    left: 650px;
+    background: url(../img/bubble2.png) no-repeat;
+}
+
+.extra3{
+    height: 150px;
+    position: absolute;
+    top: 1950px;
+    left: 800px;
+    background: url(../img/bubble3.png) no-repeat;
+}
+
+.extra5{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 1150px;
+    left: 980px;
+    z-index: 1;
+    background: url(../img/orange-fish-1.png) no-repeat;
+}
+
+.extra6{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 1650px;
+    left: 730px;
+    z-index: 1;
+    background: url(../img/blue-fish-1.png) no-repeat;
+}
+
